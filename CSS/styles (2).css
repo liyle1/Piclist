@@ -1,0 +1,28 @@
+@charset "utf-8";
+body,h3,dl,dd {
+	margin:0;
+}
+.news{ 
+       width:850px;
+	   border: 1px #bbb solid;
+	   border-top-left-radius:20px;
+	   overflow:hidden;
+	   margin: 20px auto;
+	   padding:20px;
+}
+h3{ margin-left:10px;}
+dl{ 
+	float: left;
+	width:192px;
+	margin:10px;
+}
+a{ 
+   text-decoration:none;
+   overflow:hidden;
+   display:block;
+   white-space:nowrap;
+   text-overflow:ellipsis;
+   color:#666;
+   margin-top:10px;
+}
+a:hover { color:red;}
